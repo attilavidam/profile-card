@@ -1,0 +1,148 @@
+.red {
+  background-color:hsla(0,50%,50%,.5);
+}
+
+.green {
+  background-color:hsla(120,100%,50%,.5);
+}
+
+.blue {
+  background-color:hsla(240,100%,50%,.5);
+}
+
+.yellow {
+  background-color:hsla(60,100%,50%,.5);
+}
+
+.pink {
+  background-color:hsla(320,100%,50%,.5);
+}
+
+.violettgrey {
+  background-color:hsla(150,50%,20%,.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.profile-card {
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial;
+}
+
+.content {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.items {
+  width: 100%;
+  height: 30%;
+  padding: 5%;
+  text-align: center;
+  line-height:200%;
+}
+
+.about-me {
+   width: 100%;
+  height: 55%;
+ padding: 5%;
+}
+
+.visit-me {
+   width: 100%;
+  height: 15%;
+  padding: 5%;
+}
+
+.images {
+  width: 50%;
+  height: 100%;
+  max-width: 50vw; 
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 200%;
+}
+
+h3 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  line-height: 130%;
+}
+
+.portrait {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+}
+
+.private {
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+
+.priv1 {
+  height: 50%;
+  width: 100%;
+}
+
+.priv2 {
+  height: 50%;
+  width: 100%;
+}
+
+.on-work {
+  height: 100%;
+  width: 50%;
+}
+
+.work1 {
+  height: 50%;
+  width: 100%;
+}
+
+.work2 {
+  height: 50%;
+  width: 100%;
+}
+
+img {
+  max-width: 25vw;
+  max-height: 25vh;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  line-height: 500%;
+}
+
+li {
+  display: inline;
+}
