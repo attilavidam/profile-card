@@ -14,13 +14,6 @@
   background-color: hsla(0,0%,80%);
 }
 
-
-@media only screen and (max-height: 530px) {
-  .content {
-    height: 120%;
-  }
-}
-
 .items {
   width: 100%;
   height: 30%;
@@ -137,11 +130,38 @@ p {
 }
 
 @media only screen and (max-height: 637px) { 
-  .images {
-    height: 200vh;
+  .shots {
+    height: 75%;
   }
 }
 
+@media only screen and (max-height: 530px) {
+  .content {
+    height: 120%;
+  }
+}
+
+@media only screen and (max-height: 435px) { 
+  .shots {
+    height: 100%;
+  }
+  .photo {
+    max-height: 75%;
+    max-width: 75%;
+  }
+  .content {
+    height: 150%
+  }
+}
+
+@media only screen and (max-height: 350px) {
+  .content {
+    height:   200%;
+  }
+  h1, h2 {
+    font-size: .8rem;
+  }
+}
 
 .img2 {
   max-width: 50vw;
@@ -150,7 +170,7 @@ p {
   
 }
 
-img:hover {
+.img2:hover {
   filter: grayscale(0%);
 }
 
