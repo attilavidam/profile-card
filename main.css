@@ -158,3 +158,41 @@ li {
 .phone:hover, .mailto:hover {
   color: darkmagenta; 
 }
+
+@media only screen and (max-height: 637px) { 
+  .shots {
+    height: 75%;
+  }
+}
+
+@media only screen and (max-height: 530px) {
+  .content {
+    height: 120%;
+  }
+}
+
+@media only screen and (max-height: 435px) { 
+  .shots {
+    height: 50%;
+    background-color: hsla(0,0%,30%);
+  }
+  .portrait {
+    height: 100%;
+  }
+  .photo {
+    max-height: 75%;
+    max-width: 75%;
+  }
+  .content {
+    height: 150%
+  }
+}
+
+@media only screen and (max-height: 350px) {
+  .content {
+    height:   200%;
+  }
+  h2 {
+    font-size: .8rem;
+  }
+}

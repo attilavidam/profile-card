@@ -137,7 +137,17 @@ p {
 
 @media only screen and (max-height: 530px) {
   .content {
-    height: 120%;
+    max-height: 100vh;
+  }
+  
+  
+  .about-me {
+    visibility: hidden;
+    height: 0%;
+    width: 0%;
+  }
+  .visit-me {
+    height: 60%;
   }
 }
 
