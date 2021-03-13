@@ -4,15 +4,19 @@
 
 .profile-card {
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
   font-family: Arial;
+  position: relative;
 }
 
 .content {
   width: 100%;
-  height: 100%;
+  height: 50%;
   background-color: hsla(0,0%,80%);
+  position: relative;
+  top: o;
 }
+
 
 .items {
   width: 100%;
@@ -20,17 +24,23 @@
   padding: 5%;
   text-align: center;
   line-height:150%;
+  position:absolute;
+  top: 0;
 }
 
 .about-me {
    width: 100%;
   height: 50%;
  padding: 5%;
+  position: absolute;
+  top: 30%;
 }
 
 .visit-me {
    width: 100%;
   height: 20%;
+  position: absolute;
+  top: 80%;
   
 }
 
@@ -39,6 +49,8 @@
   height: 100%;
   max-width: 100vw;
   max-height: 100vh;
+  position: absolute;
+  bottom: 0;
 }
 
 h1 {
@@ -129,49 +141,6 @@ p {
   width: 100%;
 }
 
-@media only screen and (max-height: 637px) { 
-  .shots {
-    height: 75%;
-  }
-}
-
-@media only screen and (max-height: 530px) {
-  .content {
-    max-height: 100vh;
-  }
-  
-  
-  .about-me {
-    visibility: hidden;
-    height: 0%;
-    width: 0%;
-  }
-  .visit-me {
-    height: 60%;
-  }
-}
-
-@media only screen and (max-height: 435px) { 
-  .shots {
-    height: 100%;
-  }
-  .photo {
-    max-height: 75%;
-    max-width: 75%;
-  }
-  .content {
-    height: 150%
-  }
-}
-
-@media only screen and (max-height: 350px) {
-  .content {
-    height:   200%;
-  }
-  h2 {
-    font-size: .8rem;
-  }
-}
 
 .img2 {
   max-width: 50vw;
@@ -191,7 +160,8 @@ ul {
 }
 
 li {
-  display: inline;
+  display: inline-block;
+  margin-top: 5%;
 }
 
 .pikt {
@@ -209,4 +179,36 @@ li {
 
 .phone:hover, .mailto:hover {
   color: darkmagenta; 
+}
+
+
+@media only screen and (max-height: 530px) {
+  .content {
+    max-height: 100vh;
+  }
+  
+  .about-me {
+    display: none;
+  }
+  .visit-me {
+    height: 30%;
+    top: 70%;
+    padding: 0;
+  }
+  .items {
+    height:  70%;
+  }
+  ul {
+    line-height: 0;
+  }
+}
+
+@media only screen and (max-height: 435px) { 
+  .shots {
+    display: none;
+  }
+  .portrait {
+    height: 100%;
+    width: 100%;
+  }
 }
