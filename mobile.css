@@ -183,9 +183,6 @@ li {
 
 
 @media only screen and (max-height: 530px) {
-  .content {
-    max-height: 100vh;
-  }
   
   .about-me {
     display: none;
@@ -196,7 +193,7 @@ li {
     padding: 0;
   }
   .items {
-    height:  70%;
+    height: 70%;
   }
   ul {
     line-height: 0;
